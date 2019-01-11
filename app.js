@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 
 
 // const index = require('./routes/index');
-const MONGODB_URI = require('./config');
+const {MONGODB_URI }= require('./config');
 const api = require('./routes/api/index');
 
 
